@@ -26,11 +26,7 @@ public class Client extends Thread {
 
         Terre terre=Terre.getInstance(population,age);
         System.out.println(Thread.currentThread().getId()+" TERRE: "+ terre);
-        try{
-            Thread.sleep(2000);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
     }
 
     public static void main(String[] args)  {

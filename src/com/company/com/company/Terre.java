@@ -11,7 +11,7 @@ public class Terre {
     public String toString() {
         return ("ObjetTerre : Poulation : "+population+" Age: "+age);
     }
-    public static Terre getInstance(int population,int age ){
+    public static  synchronized Terre getInstance(int population,int age ){
         if(objetTerre==null)
             objetTerre=new Terre(population, age);
         return (objetTerre);
