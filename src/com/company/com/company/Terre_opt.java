@@ -5,8 +5,8 @@ public class Terre_opt{
     static int population;
     static int age;
     private Terre_opt(int population,int age){
-        Terre.population=population;
-        Terre.age=age;
+        Terre_opt.population=population;
+        Terre_opt.age=age;
     }
     public String toString() {
         return ("ObjetTerre : Poulation : "+population+" Age: "+age);

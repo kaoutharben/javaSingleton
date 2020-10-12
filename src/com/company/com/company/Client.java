@@ -24,8 +24,8 @@ public class Client extends Thread {
             e.printStackTrace();
         }
 
-        Terre terre=Terre.getInstance(population,age);
-        System.out.println(Thread.currentThread().getId()+" TERRE: "+ terre);
+        Terre_opt terre=Terre_opt.getInstance(population,age);
+        System.out.println(Thread.currentThread().getId()+" TERRE_OPT: "+ terre);
 
     }
 
